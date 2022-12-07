@@ -1,32 +1,85 @@
-button{
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#00bfa5;
+    height: 112px;
+}
+
+.header button{
     border-width:0px;
     background: transparent;
 }
 
-.header{
+.header h1 a{
+    color: #FFFFFF;
+    font-size: 36px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+.header img{
+    height:80px ; 
+    width: 80px;
+    margin: 0px 10px 0px 10px;
+}
+
+.header button img{
+    height:70px ; 
+    width: 70px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+.div_banner{
     display: flex;
-    justify-content: flex-start;
-    background-color:#00bfa5;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:568px;
+    background-image:url(../img/BG_wave.png);
+    background-size: 100% 100%;
+    background-position: 0px 300px;
+    background-repeat:no-repeat;
 }
 
 .div_banner_content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width:1175px;height:340px;
-    
 }
-.div_banner{
+.div_banner_content .top{
+    margin: 10px; 
+    width:309px;
+    height:289px;
+    position: relative;
+}
+
+.div_banner_content .button{
+    position: absolute; 
+    bottom: 0; 
+    font-size: 24px; 
+    color: #717171;
+}
+
+.title{
+    margin: 0px 0px 0px 10px;
+    font-size: 40px;
+    color: #00bfa5;
+}
+
+.flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;height:568px;
 }
+
+
+
 
 .div_search{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #EFEBE9;
 }
 
 .div_search_content{
@@ -34,9 +87,38 @@ button{
     justify-content: space-between;
     align-items: center;
     width:1175px;height:100px;
-    background-color:#717171;
+    background-color:#ffffff;
     margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    box-shadow:2px 2px 6px #717171;
 }
+
+.div_search button{
+    height:50px; 
+    width:50px;
+    padding:0px;
+    border-width:0px;
+    background:transparent;
+    margin: 0px 10px 0px 10px;
+}
+
+.div_search input{
+    width: 398px; 
+    height:50px;
+    margin: 0px 0px 0px 0px;
+    padding:5px 15px; 
+    border:1px #717171 solid;
+    border-radius: 5px;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
 
 .list{
     display: flex;
@@ -87,4 +169,8 @@ button{
 .item_detail{
     display: flex;
     align-items: center;
+}
+
+body{ 
+    margin:0
 }
