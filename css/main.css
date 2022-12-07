@@ -123,24 +123,27 @@
 .list{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 1440px;
     height:1170px;  
     background-color:#EFEBE9;
+    padding: 0px 0px 0px 0px;
 }
 
 .list_content{
     
-    width:1197px;height:945px;
+    width:1175px;height:880px;
     background-color:#FFFFFF;
-
+    border-radius: 5px;
+    box-shadow:2px 2px 6px #717171;
+    background-image:url(../img/BG_wave.png);
+    background-size: 100% 100%;
+    background-position: 0px 300px;
+    background-repeat:no-repeat;
 }
 .item{
     display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    height:276px; 
-    padding: 60px;
+    justify-content: space-between; 
+    padding: 30px 60px 30px 60px ;
 }
 
 .app_banner{
