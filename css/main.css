@@ -14,8 +14,7 @@
 .header h1 a{
     color: #FFFFFF;
     font-size: 36px;
-    margin: 0px 10px 0px 10px;
-    
+    margin: 0px 10px 0px 10px;    
 }
 
 .header img{
@@ -30,6 +29,7 @@
     margin: 0px 10px 0px 10px;
 }
 
+/*-------------------------------------- Header --------------------------------------------*/
 
 .div_banner{
     display: flex;
@@ -72,8 +72,7 @@
     display: flex;
 }
 
-
-
+/*-------------------------------------- Banner --------------------------------------------*/
 
 .div_search{
     display: flex;
@@ -113,12 +112,7 @@
 
 }
 
-
-
-
-
-
-
+/*-------------------------------------- Search --------------------------------------------*/
 
 .list{
     display: flex;
@@ -146,17 +140,12 @@
     color:#717171;
 }
 
-.app_banner{
-    width:1440px;height:456px;
-    background-color:#FFFFFF;
-}
-
-.footer{
+.item_detail{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    width:1440px;height:96px;
-    background-color:#00bfa5;
+}
+.item_detail a{
+    margin: 0px 10px 0px 10px;
 }
 
 .item_area{
@@ -166,15 +155,13 @@
     margin: 10px 0px ; 
     width:255px;
     height:50px;
-
 }
 
-.item_detail{
-    display: flex;
-    align-items: center;
-}
-.item_detail a{
-    margin: 0px 10px 0px 10px;
+/*-------------------------------------- Hit-list --------------------------------------------*/
+
+.app_banner{
+    width:1440px;height:456px;
+    background-color:#FFFFFF;
 }
 
 .app_banner{
@@ -204,7 +191,15 @@
     color:#717171;
 }
 
+/*-------------------------------------- Banner --------------------------------------------*/
 
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:1440px;height:96px;
+    background-color:#00bfa5;
+}
 
 .footer img{
     margin: 0px 10px 0px 10px;
@@ -216,7 +211,7 @@
     margin: 0px 10px 0px 0px;
 }
 
-
+/*-------------------------------------- Banner --------------------------------------------*/
 
 body{ 
     margin:0
@@ -227,3 +222,5 @@ button{
     background:transparent;
     padding: 0px;
 }
+
+/*-------------------------------------- Common  --------------------------------------------*/
