@@ -7,14 +7,22 @@
 }
 
 .header button{
+    height:70px ; 
+    width: 70px;
     border-width:0px;
-    background: transparent;
+    background:transparent;
+    margin: 0px 10px 0px 10px;
+}
+
+.header button :hover{
+    height:105% ; 
+    width: 105%;
 }
 
 .header h1 a{
     color: #FFFFFF;
     font-size: 36px;
-    margin: 0px 10px 0px 10px;    
+    margin: 0px 10px 0px 20px;    
 }
 
 .header img{
@@ -26,7 +34,7 @@
 .header button img{
     height:70px ; 
     width: 70px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
 }
 
 /*-------------------------------------- Header --------------------------------------------*/
@@ -60,16 +68,6 @@
     bottom: 0; 
     font-size: 24px; 
     color: #717171;
-}
-
-.title{
-    margin: 0px 0px 0px 10px;
-    font-size: 40px;
-    color: #00bfa5;
-}
-
-.flex{
-    display: flex;
 }
 
 /*-------------------------------------- Banner --------------------------------------------*/
@@ -157,6 +155,8 @@
     height:50px;
 }
 
+
+
 /*-------------------------------------- Hit-list --------------------------------------------*/
 
 .app_banner{
@@ -222,5 +222,22 @@ button{
     background:transparent;
     padding: 0px;
 }
+
+button :hover{
+    width:105%;
+    height:105%;
+}
+
+.title{
+    margin: 0px 0px 0px 10px;
+    font-size: 40px;
+    color: #00bfa5;
+}
+
+.flex{
+    display: flex;
+}
+
+
 
 /*-------------------------------------- Common  --------------------------------------------*/
