@@ -174,7 +174,7 @@
 /*-------------------------------------- Hit-list --------------------------------------------*/
 
 .app_banner{
-    width:1440px;height:456px;
+    height:456px;
     background-color:#FFFFFF;
 }
 
@@ -211,7 +211,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width:1440px;height:96px;
+    height:96px;
     background-color:#00bfa5;
 }
 
